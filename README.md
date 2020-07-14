@@ -2,11 +2,13 @@
 Basic tools to predict patterns in semi-cyclic data
 
 Goal: to cover useful tools in my experience:
+
     Fractal dimension measurements
     Rolling standard deviation and mean
     Basic cyclic measurement of data
 
 Lesser Goal: to cover these tools (https://en.wikipedia.org/wiki/Time_series)
+
     Consideration of the autocorrelation function and the spectral density function (also cross-correlation functions and cross-spectral density functions)
     Scaled cross- and auto-correlation functions to remove contributions of slow components[32]
     Performing a Fourier transform to investigate the series in the frequency domain
