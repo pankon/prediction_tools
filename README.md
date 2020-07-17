@@ -45,3 +45,7 @@ Lesser Goal: to cover these tools (https://en.wikipedia.org/wiki/Time_series)
         Recurrence quantification analysis
         Lyapunov exponents
         Entropy encoding
+
+Style guide:
+    https://google.github.io/styleguide/cppguide.html
+    (not that I agree with all the design choices, but seems decent enough)
