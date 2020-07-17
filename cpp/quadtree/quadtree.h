@@ -3,8 +3,6 @@
 
 #include <vector>
 
-#include "point.h"
-
 namespace PredictionTools {
 
 template <typename T>
@@ -51,7 +49,7 @@ private:
      * 0010 other.x < this.x && other.y > this.y
      * 0100 other.x < this.x && other.y < this.y
      */
-    int Compare(const std::vector& point1, const std::vector& point2) const {
+    int Compare(const std::vector<T>& point1, const std::vector<T>& point2) const {
         int n_dimensions = point1.size();
         if (n_dimensions != point2.size()) {
             // don't compare two points without equal dimension
